@@ -1,6 +1,6 @@
 ### **Guia: Análise de Sentimentos com Azure Cognitive Services a Partir de um Arquivo Local**
 
-Este guia descreve como realizar a análise de sentimentos de um texto armazenado localmente, utilizando o Azure Cognitive Services. O texto analisado é um comentário público sobre o aplicativo **Solar Coca-Cola**, extraído da Google Play.
+Este guia descreve como realizar a análise de sentimentos de um texto armazenado localmente, utilizando o Azure Cognitive Services. O texto analisado é um comentário público sobre o aplicativo **Solar Coca-Cola**, extraído da Google Play como exercício, que fez parte do Bootcamp Microsoft Azure AI-900 realizado pela DIO/Microsoft.
 
 ---
 
