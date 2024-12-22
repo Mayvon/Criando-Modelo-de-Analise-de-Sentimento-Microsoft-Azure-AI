@@ -115,7 +115,13 @@ except Exception as e:
      - `"Pode melhorar muito, Os produtos estão embaralhados..."`
      - `"O app é lento demais, às vezes trava."`
    - Frase positiva:
-     - `"Funciona, mas tem potencial para melhorar muito ainda."`
+   - `"Funciona, mas tem potencial para melhorar muito ainda."`
+    
+**Exemplo de Resultado Geral**
+![Análise de Sentimentos - Resultado Geral](./print-1.png)
+
+**Exemplo de Resultado Detalhado**
+![Análise de Sentimentos - Detalhe](./print-2.png)
 
 ---
 
