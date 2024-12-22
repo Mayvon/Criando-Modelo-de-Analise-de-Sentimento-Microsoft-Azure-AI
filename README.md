@@ -118,10 +118,10 @@ except Exception as e:
    - `"Funciona, mas tem potencial para melhorar muito ainda."`
     
 **Exemplo de Resultado Geral**
-![Análise de Sentimentos - Resultado Geral](./print-1.png)
+![Análise de Sentimentos - Resultado Geral](./prints/print-1.png)
 
 **Exemplo de Resultado Detalhado**
-![Análise de Sentimentos - Detalhe](./print-2.png)
+![Análise de Sentimentos - Detalhe](./prints/print-2.png)
 
 ---
 
