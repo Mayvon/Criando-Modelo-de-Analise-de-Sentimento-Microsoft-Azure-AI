@@ -139,4 +139,131 @@ except Exception as e:
 
 ---
 
-Com esse guia, você pode replicar o processo para analisar feedbacks de diferentes fontes e utilizá-los para tomar decisões informadas em seus projetos! 🚀
+{
+    "documents": [
+        {
+            "id": "id__1948",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.19,
+                "neutral": 0.01,
+                "negative": 0.8
+            },
+            "sentences": [
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 0,
+                    "length": 95,
+                    "text": "Pode melhorar muito, Os produtos estão embaralhados fazendo que perca muito tempo nos pedidos. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 95,
+                    "length": 39,
+                    "text": "O app é lento de mais, as vezes trava. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 97,
+                            "length": 3,
+                            "text": "app",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/1/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 103,
+                            "length": 5,
+                            "text": "lento",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 127,
+                            "length": 5,
+                            "text": "trava",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 134,
+                    "length": 97,
+                    "text": "Se por acaso o cliente errar o pedido e finalizar, o mesmo tem até a opção de cancelar o pedido. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0,
+                        "negative": 0.99
+                    },
+                    "offset": 231,
+                    "length": 131,
+                    "text": "Porém não cancela e no dia seguinte o pedido chega SAO ESSES OS PONTOS NEGATIVOS QUE COMO CLIENTE DA COCA COLA VEJO AO USAR O APP. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.95,
+                        "neutral": 0.05,
+                        "negative": 0
+                    },
+                    "offset": 362,
+                    "length": 54,
+                    "text": "Funciona, mas tem potencial para melhorar muito ainda.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2024-03-01"
+}
+
