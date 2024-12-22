@@ -1,13 +1,13 @@
 ### **Guia: Análise de Sentimentos com Azure Cognitive Services a Partir de um Arquivo Local**
 
-Este guia descreve como realizar a análise de sentimentos de um texto armazenado localmente, utilizando o Azure Cognitive Services. O texto analisado é um comentário público sobre o aplicativo **Solar Coca-Cola**, extraído da Google Play como exercício, que fez parte do Bootcamp Microsoft Azure AI-900 realizado pela DIO/Microsoft.
+Este guia descreve como realizar a análise de sentimentos de um texto armazenado localmente, utilizando o Azure Cognitive Services. O texto analisado é um comentário público sobre o aplicativo **Solar Coca-Cola**, extraído da Google Play.
 
 ---
 
 ### **Passo 1: Estrutura do Projeto**
 
 1. **Diretório de Trabalho**
-   - O texto está armazenado no diretório `inputs` com o nome do arquivo `Francisco-de-Assis.txt`.
+   - O texto está armazenado no diretório `inputs` com o nome do arquivo `Francisco-Assis.txt`.
 
 2. **Conteúdo do Arquivo**
    - O arquivo contém o seguinte texto:
@@ -115,8 +115,11 @@ except Exception as e:
      - `"Pode melhorar muito, Os produtos estão embaralhados..."`
      - `"O app é lento demais, às vezes trava."`
    - Frase positiva:
-   - `"Funciona, mas tem potencial para melhorar muito ainda."`
-    
+     - `"Funciona, mas tem potencial para melhorar muito ainda."`
+
+---
+
+
 **Exemplo de Resultado Geral**
 
 ![Análise de Sentimentos - Resultado Geral](./prints/print-1.png)
@@ -125,20 +128,12 @@ except Exception as e:
 
 ![Análise de Sentimentos - Detalhe](./prints/print-2.png)
 
----
 
-### **Passo 5: Aplicações e Contexto**
+### **Passo 5: Revisando o Resultado Analisado**
 
-1. **Origem do Texto**:
-   - Este texto é um comentário público sobre o aplicativo **Solar Coca-Cola**, disponível na Google Play Store.
+Após realizar a análise, você pode acessar o resultado retornado pelo Azure. Aqui está o conteúdo do arquivo JSON gerado pela análise de sentimento:
 
-2. **Possíveis Aplicações**:
-   - Melhorar a experiência do usuário com base nos feedbacks negativos.
-   - Destacar aspectos positivos nas comunicações de marketing.
-   - Análise contínua para monitorar a percepção dos usuários.
-
----
-
+```json
 {
     "documents": [
         {
@@ -266,4 +261,16 @@ except Exception as e:
     "errors": [],
     "modelVersion": "2024-03-01"
 }
+```
+### **Aplicações e Contexto**
+
+1. **Origem do Texto**:
+   - Este texto é um comentário público sobre o aplicativo disponível na Google Play Store.
+
+2. **Possíveis Aplicações desta Feature**:
+   - Melhorar a experiência do usuário com base nos feedbacks negativos.
+   - Destacar aspectos positivos nas comunicações de marketing.
+   - Análise contínua para monitorar a percepção dos usuários.
+
+---
 
